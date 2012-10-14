@@ -26,4 +26,11 @@ export PATH
 export DYLD_LIBRARY_PATH="/usr/local/mysql/lib:$DYLD_LIBRARY_PATH"
 
 # git bash completion
-. /usr/local/git/contrib/completion/git-completion.bash
+. /usr/share/git-core/git-completion.bash
+
+PS1='\u@\h \w\[\033[0;36m\]$(__git_ps1)\[\033[00m\]$ '
+
+export GIT_PS1_SHOWDIRTYSTATE=1
+export GIT_PS1_SHOWSTASHSTATE=1
+export GIT_PS1_SHOWUNTRACKEDFILES=1
+export GIT_PS1_SHOWUPSTREAM=auto
