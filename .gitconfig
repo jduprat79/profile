@@ -1,0 +1,14 @@
+[user]
+	name = Nicolas Lenepveu
+	email = n.lenepveu@ifeelgoods.com
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	ba = branch -a
+	oops = commit --amend -C HEAD
+	history = log --graph --pretty=format:'%Cred%h%Creset %d -%Cblue %s%Creset %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative
+[color]
+	status = auto
+	diff = auto
+	branch = auto
