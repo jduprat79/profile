@@ -18,7 +18,7 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-PATH=$PATH:$HOME/Workspaces/bin # User script
+PATH=$PATH:$HOME/bin # User script
 PATH=$PATH:/usr/local/mysql/bin # MySQL executables
 export PATH
 
