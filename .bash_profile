@@ -6,8 +6,8 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 # some more ls aliases
-alias ll='ls -l'
-alias la='ls -al'
+alias ll='ls -lh'
+alias la='ls -alh'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
