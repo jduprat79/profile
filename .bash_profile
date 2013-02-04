@@ -36,3 +36,5 @@ export GIT_PS1_SHOWUNTRACKEDFILES=1
 export GIT_PS1_SHOWUPSTREAM=auto
 
 export CLICOLOR=1
+
+export AWS_CONFIG_FILE=~/.aws
