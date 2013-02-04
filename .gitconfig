@@ -5,10 +5,11 @@
 	st = status
 	ci = commit
 	co = checkout
-	br = branch
-	ba = branch -a
+	br = branch -v
+	ba = branch -av
 	oops = commit --amend -C HEAD
-	history = log --graph --pretty=format:'%Cred%h%Creset %d -%Cblue %s%Creset %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative
+	history = log --graph --pretty=format:'%Cred%h%Creset%d -%Cblue %s%Creset %Cgreen(%ar) %Cblue<%an>%Creset' --abbrev-commit --date=relative
+	s = status -s
 [color]
 	status = auto
 	diff = auto
